@@ -28,6 +28,7 @@
 } */
 .hidden-title {
   margin: 0;
+  display: none;
 }
 /* general */
 body {
@@ -161,10 +162,18 @@ body {
 
 .hero {
   text-align: center;
+  width: 1600px;
+  height: 600px;
+
+  /* justify-content: center; */
+
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-container {
   margin: 0 auto;
   width: 645px;
+  padding-top: 200px;
 }
 .title-general {
   color: var(--primery-text-white);
@@ -176,12 +185,12 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
+  text-transform: uppercase;
 
   letter-spacing: 0.06em;
 }
 
 .title-h {
-  padding-top: 94px;
   margin-top: 0px;
   margin-bottom: 50px;
 
@@ -211,6 +220,10 @@ body {
 }
 
 /* O nas */
+/* .section-one .container {
+width: 1201px;
+height: 251px;
+} */
 .icon-img {
   margin-top: 25px;
 }
@@ -226,6 +239,10 @@ body {
 
 .bg-img:hover {
   background-color: var(--acent-text-color);
+}
+.section-oneli {
+  height: 251px;
+  margin-bottom: 94px;
 }
 
 .about-us:not(:last-child) {
@@ -249,6 +266,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   text-align: center;
+  text-transform: uppercase;
 }
 .work-box {
   background: rgba(47, 48, 58, 0.8);
@@ -261,8 +279,15 @@ body {
   width: 278px;
   height: 422px;
 }
+
+.section .title-h {
+  padding-top: 94px;
+}
+.section .container {
+  height: 702px;
+}
 .work-list {
-  padding-bottom: 94px;
+  margin-bottom: 94px;
 }
 
 /* our team */
@@ -299,6 +324,10 @@ body {
 }
 
 /* Company  */
+.section-four .title-h {
+  padding-top: 94px;
+}
+
 .company {
   display: flex;
   justify-content: center;
@@ -335,6 +364,8 @@ body {
 
 .footer-heading {
   color: var(--primery-text-white);
+  margin-top: 0px;
+  margin-bottom: 21px;
 
   font-weight: 700;
   font-size: 14px;
@@ -351,6 +382,9 @@ body {
 
 .street {
   color: var(--primery-text-white);
+
+  margin-top: 10px;
+  margin-bottom: 0px;
 
   font-weight: 400;
   font-size: 14px;
@@ -384,6 +418,7 @@ body {
   margin-top: 56px;
 }
 .address-ul {
+  margin-top: 9px;
   margin-bottom: 28px;
 }
 
@@ -412,9 +447,17 @@ body {
 /* .button-text {
 } */
 
+.container-portfolio {
+  margin-top: 93px;
+  margin-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .button-list {
   justify-content: center;
-  margin-top: 180px;
 }
 .button-box {
   color: var(--primary-text-color);
@@ -476,7 +519,6 @@ body {
 
 .p-list {
   margin-top: 50px;
-  margin-bottom: 94px;
 
   display: flex;
   flex-wrap: wrap;
