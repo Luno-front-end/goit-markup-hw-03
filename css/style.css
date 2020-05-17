@@ -1,0 +1,489 @@
+/* osnovnoy podsvrtka /bg-a-o-nas2 #2196F3 */
+/*  osnovnoy bez podsvrtka  #757575 */
+/* osn #212121 */
+/* #FFFFFF */
+/* bg-a-o-nas1 #F5F4FA */
+/* фоон #FFFFFF */
+/* другий фон #F5F4FA */
+/* задний фон футра  #2F303A */
+:root {
+  --bg-white-text: rgba(148, 148, 148, 0.103);
+  --primary-text-color: #212121;
+  --acent-text-color: #2196f3;
+  --primery-text-white: #ffffff;
+  --connection: #757575;
+  --bg-none-light: #f5f4fa;
+  --footer-number: rgba(255, 255, 255, 0.6);
+  --footer-year: rgba(255, 255, 255, 0.4);
+  --bg-footer: #2f303a;
+  --incogniti-gb-card-portfolio: rgba(33, 150, 243, 0.9);
+}
+/* .chec {
+  outline: 1px solid tomato;
+  background-color: yellowgreen;
+}
+.chec2 {
+  outline: 1px solid black;
+  background-color: yellowgreen;
+} */
+.hidden-title {
+  margin: 0;
+}
+/* general */
+body {
+  background-color: #fff;
+  color: var(--primary-text-color);
+  letter-spacing: 0.03em;
+  font-family: Roboto, sans-serif;
+}
+
+.general-a {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+.custom-img {
+  display: block;
+}
+.general-ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn {
+  color: var(--primery-text-white);
+  background-color: var(--acent-text-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  text-align: center;
+  min-width: 200px;
+}
+.footerbtn-text {
+  color: var(--primery-text-white);
+  background-color: var(--acent-text-color);
+
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 45px;
+  text-align: center;
+  min-width: 200px;
+}
+.container {
+  margin: 0 auto;
+  width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* header */
+/* nav */
+
+.general-nav {
+  color: var(--primary-text-color);
+
+  display: block;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.number-nav {
+  color: var(--connection);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.general-nav:hover,
+.general-nav:focus,
+.number-nav:hover,
+.number-nav:focus {
+  color: var(--acent-text-color);
+}
+
+.number-info .list-number:not(:last-child) {
+  margin-right: 30px;
+}
+
+.number-info {
+  margin-left: auto;
+}
+
+.current {
+  color: var(--acent-text-color);
+}
+
+/* flex */
+
+.general-ul.nav-list {
+  display: flex;
+}
+
+.nav-list .nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+.nav-list {
+  margin-left: 86px;
+}
+
+.number-info {
+  display: flex;
+}
+.flex-boxoll {
+  display: flex;
+}
+.flex-boxnav {
+  align-items: center;
+}
+/* header container */
+.page-header {
+}
+
+/* main */
+/* general */
+
+.hero {
+  text-align: center;
+}
+.hero-container {
+  margin: 0 auto;
+  width: 645px;
+}
+.title-general {
+  color: var(--primery-text-white);
+  /* фон поставив щоб було видно текст */
+  background-color: var(--bg-white-text);
+  margin-top: 0;
+  margin-bottom: 45px;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+
+  letter-spacing: 0.06em;
+}
+
+.title-h {
+  padding-top: 94px;
+  margin-top: 0px;
+  margin-bottom: 50px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.title-text {
+  margin-top: 30px;
+  margin-bottom: 0px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.paragraph-text {
+  color: var(--connection);
+
+  margin-top: 10px;
+  margin-bottom: 0px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* O nas */
+.icon-img {
+  margin-top: 25px;
+}
+.bg-img {
+  background-color: var(--bg-none-light);
+
+  text-align: center;
+
+  width: 278px;
+  height: 120px;
+  border-radius: 4px;
+}
+
+.bg-img:hover {
+  background-color: var(--acent-text-color);
+}
+
+.about-us:not(:last-child) {
+  margin-right: 30px;
+}
+/* flex */
+.general-flex {
+  display: flex;
+}
+
+/* What are we doing */
+
+.text-work {
+  color: var(--primery-text-white);
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 27px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+}
+.work-box {
+  background: rgba(47, 48, 58, 0.8);
+  border-radius: 0px 0px 4px 4px;
+
+  width: 380px;
+  height: 70px;
+}
+.work-card {
+  width: 278px;
+  height: 422px;
+}
+.work-list {
+  padding-bottom: 94px;
+}
+
+/* our team */
+.name-people {
+  margin-top: 30px;
+  margin-bottom: 0px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.work-people {
+  color: var(--connection);
+
+  margin-top: 10px;
+  margin-bottom: 0px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+}
+
+.social-network {
+  margin-top: 16px;
+
+  display: flex;
+  justify-content: center;
+}
+.section {
+  background-color: var(--bg-none-light);
+}
+
+/* Company  */
+.company {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 94px;
+}
+.company .item-company:not(:last-child) {
+  margin-right: 30px;
+}
+.social-network .item:not(:last-child) {
+  margin-right: 10px;
+}
+/* logo */
+.logo {
+  color: var(--primary-text-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.color-logo {
+  color: var(--acent-text-color);
+}
+
+/* footer */
+/* Зробив background підвала для того щоб бачити текст */
+.bg-footer {
+  background-color: var(--bg-footer);
+}
+
+.general-address {
+  font-style: normal;
+  margin-right: 179px;
+}
+
+.footer-heading {
+  color: var(--primery-text-white);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.number-footer {
+  color: var(--footer-number);
+
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.street {
+  color: var(--primery-text-white);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.footer-year {
+  color: var(--footer-year);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 18px;
+  padding-bottom: 21px;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+}
+
+.input {
+  margin-right: 12px;
+  width: 270px;
+  height: 50px;
+}
+/* .copyright {
+  flex-wrap: wrap;
+} */
+.address-ul {
+  margin-bottom: 28px;
+}
+
+.footer-m {
+  margin-right: 102px;
+}
+.hr {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.flex-footer {
+  display: flex;
+}
+
+.general-flex .item:not(:last-child) {
+  margin-right: 10px;
+}
+/* portfolio */
+
+/* main */
+/* кнопки */
+/* .button-text {
+} */
+
+.button-list {
+  justify-content: center;
+  margin-top: 180px;
+}
+.button-box {
+  color: var(--primary-text-color);
+  background-color: var(--bg-none-light);
+
+  min-width: 73px;
+  min-height: 38px;
+  border-radius: 4px;
+
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+.button-m:not(:last-child) {
+  margin-right: 8px;
+}
+
+.button-box:hover {
+  background-color: var(--acent-text-color);
+}
+/* список работ */
+
+.portfolio-h {
+  color: var(--primary-text-color);
+
+  margin-top: 20px;
+  margin-bottom: 0px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-pone {
+  color: var(--connection);
+
+  margin-top: 4px;
+  margin-bottom: 20px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
+.portfolio-text {
+  color: var(--primery-text-white);
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+}
+/* фон поставив щоб було видно текст */
+.card-bg {
+  background-color: var(--incogniti-gb-card-portfolio);
+}
+
+.p-list {
+  margin-top: 50px;
+  margin-bottom: 94px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-li {
+  width: 380px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.flex-li:nth-child(3n) {
+  margin-right: 0px;
+}
+.flex-li:nth-last-child(-n + 3) {
+  margin-bottom: 0px;
+}
