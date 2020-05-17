@@ -375,14 +375,20 @@ body {
   width: 270px;
   height: 50px;
 }
-/* .copyright {
-  flex-wrap: wrap;
-} */
+
+.adrfooter-div {
+  margin-top: 48px;
+}
+
+.ssfooter-div {
+  margin-top: 56px;
+}
 .address-ul {
   margin-bottom: 28px;
 }
 
 .footer-m {
+  margin-top: 56px;
   margin-right: 102px;
 }
 .hr {
