@@ -220,10 +220,9 @@ body {
 }
 
 /* O nas */
-/* .section-one .container {
-width: 1201px;
-height: 251px;
-} */
+.section-one .container {
+  padding-top: 94px;
+}
 .icon-img {
   margin-top: 25px;
 }
@@ -280,7 +279,7 @@ height: 251px;
   height: 422px;
 }
 
-.section .title-h {
+.section .container {
   padding-top: 94px;
 }
 .section .container {
@@ -324,7 +323,7 @@ height: 251px;
 }
 
 /* Company  */
-.section-four .title-h {
+.section-four .container {
   padding-top: 94px;
 }
 
