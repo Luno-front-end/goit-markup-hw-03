@@ -358,13 +358,23 @@ body {
 
 .general-address {
   font-style: normal;
+
+  width: 231px;
+
   margin-right: 179px;
+}
+
+.footer-m .footer-heading {
+  width: 145px;
+  height: 16px;
 }
 
 .footer-heading {
   color: var(--primery-text-white);
   margin-top: 0px;
   margin-bottom: 21px;
+
+  margin-right: 0px;
 
   font-weight: 700;
   font-size: 14px;
@@ -381,6 +391,9 @@ body {
 
 .street {
   color: var(--primery-text-white);
+
+  width: 231px;
+  height: 21px;
 
   margin-top: 10px;
   margin-bottom: 0px;
@@ -417,11 +430,17 @@ body {
   margin-top: 56px;
 }
 .address-ul {
+  width: 231px;
+  height: 21px;
+
   margin-top: 9px;
   margin-bottom: 28px;
 }
 
 .footer-m {
+  width: 207px;
+  height: 81px;
+
   margin-top: 56px;
   margin-right: 102px;
 }
