@@ -83,9 +83,14 @@ body {
 }
 .container {
   margin: 0 auto;
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  outline: 1px solid tomato;
+}
+
+.link-block {
+  display: block;
 }
 
 /* header */
@@ -161,6 +166,7 @@ body {
 /* general */
 
 .hero {
+  background-color: rgb(70, 70, 70);
   text-align: center;
 
   /* justify-content: center; */
@@ -223,7 +229,7 @@ body {
 
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.7;
+  line-height: 1.714;
 }
 
 /* O nas */
@@ -238,7 +244,7 @@ body {
 
   text-align: center;
 
-  width: 278px;
+  width: 270px;
   height: 120px;
   border-radius: 4px;
 }
@@ -248,7 +254,7 @@ body {
 }
 .section-oneli {
   height: 251px;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .about-us:not(:last-child) {
