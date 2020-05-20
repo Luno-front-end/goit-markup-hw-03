@@ -167,6 +167,7 @@ img {
 }
 /* header container */
 .page-header {
+  border-bottom: 1px solid #ececec;
 }
 
 /* main */
@@ -189,13 +190,14 @@ img {
   height: 600px;
 
   padding-top: 200px;
+  padding-bottom: 200px;
 }
 .title-general {
   color: var(--primery-text-white);
   /* фон поставив щоб було видно текст */
   background-color: var(--bg-white-text);
   margin-top: 0;
-  margin-bottom: 45px;
+  margin-bottom: 38px;
   margin-left: auto;
   margin-right: auto;
 
@@ -211,7 +213,6 @@ img {
 }
 
 .title-h {
-  padding-top: 94px;
   margin-top: 0px;
   margin-bottom: 50px;
 
@@ -286,10 +287,16 @@ img {
 
 /* What are we doing */
 .section-two .container {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 .text-work {
   color: var(--primery-text-white);
+  background: rgba(47, 48, 58, 0.8);
+  border-radius: 0px 0px 4px 4px;
+
+  width: 370px;
+  height: 70px;
 
   margin-top: 0px;
   margin-bottom: 0px;
@@ -301,16 +308,12 @@ img {
   text-align: center;
   text-transform: uppercase;
 }
-.work-box {
-  background: rgba(47, 48, 58, 0.8);
-  border-radius: 0px 0px 4px 4px;
-
-  width: 370px;
-  height: 70px;
-}
+/* .work-box {
+} */
 .work-card {
-  width: 278px;
-  height: 422px;
+  padding-bottom: 24px;
+  /* width: 278px;
+  height: 422px; */
 }
 .work-calc {
   width: calc((100% - 60px) / 3);
@@ -322,6 +325,7 @@ img {
 
 .section-three .container {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 .work-list {
   /* margin-bottom: 94px; */
@@ -367,10 +371,14 @@ img {
 }
 
 /* Company  */
+.section-four .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .company {
   display: flex;
   justify-content: center;
-  padding-bottom: 94px;
 }
 .item-company {
   width: calc((100% - 150px) / 6);
@@ -527,14 +535,16 @@ img {
   padding-right: 15px;
 }
 .button-list {
+  margin-bottom: 50px;
   justify-content: center;
 }
 .button-box {
   color: var(--primary-text-color);
   background-color: var(--bg-none-light);
 
-  min-width: 73px;
-  min-height: 38px;
+  padding: 6px 22px;
+  /* min-width: 73px; */
+  /* min-height: 38px; */
   border-radius: 4px;
 
   font-family: Roboto;
@@ -594,8 +604,6 @@ img {
 }
 
 .p-list {
-  margin-top: 50px;
-
   display: flex;
   flex-wrap: wrap;
 }
