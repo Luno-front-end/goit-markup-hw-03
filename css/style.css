@@ -38,12 +38,13 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+img {
+  display: block;
+}
+
 .general-a {
   text-decoration: none;
   color: var(--primary-text-color);
-}
-.custom-img {
-  display: block;
 }
 .general-ul {
   margin: 0;
@@ -86,7 +87,6 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 1px solid tomato;
 }
 
 .link-block {
@@ -95,6 +95,10 @@ body {
 
 /* header */
 /* nav */
+
+.image-header {
+  margin-right: 10px;
+}
 
 .general-nav {
   color: var(--primary-text-color);
@@ -124,6 +128,9 @@ body {
   color: var(--acent-text-color);
 }
 
+.list-number {
+  display: flex;
+}
 .number-info .list-number:not(:last-child) {
   margin-right: 30px;
 }
@@ -204,6 +211,7 @@ body {
 }
 
 .title-h {
+  padding-top: 94px;
   margin-top: 0px;
   margin-bottom: 50px;
 
@@ -237,19 +245,20 @@ body {
 
 /* O nas */
 .section-one .container {
-  padding-top: 94px;
 }
 .section-one .container {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   border-bottom: 1px solid #ececec;
 }
 .icon-img {
-  margin-top: 25px;
+  /* margin-top: 25px; */
 }
 .bg-img {
   background-color: var(--bg-none-light);
 
-  text-align: center;
+  display: flex;
+  justify-content: center;
 
   width: 270px;
   height: 120px;
@@ -260,19 +269,25 @@ body {
   background-color: var(--acent-text-color);
 }
 .section-oneli {
-  /* height: 251px; */
 }
 
-.about-us:not(:last-child) {
+.about-us {
+  width: calc((100% - 90px) / 4);
   margin-right: 30px;
 }
+.about-us:nth-child(4n) {
+  margin-right: 0px;
+}
+
 /* flex */
 .general-flex {
   display: flex;
 }
 
 /* What are we doing */
-
+.section-two .container {
+  padding-bottom: 94px;
+}
 .text-work {
   color: var(--primery-text-white);
 
@@ -290,22 +305,26 @@ body {
   background: rgba(47, 48, 58, 0.8);
   border-radius: 0px 0px 4px 4px;
 
-  width: 380px;
+  width: 370px;
   height: 70px;
 }
 .work-card {
   width: 278px;
   height: 422px;
 }
-
-.section .container {
-  padding-top: 94px;
+.work-calc {
+  width: calc((100% - 60px) / 3);
+  margin-right: 30px;
 }
-.section .container {
-  height: 702px;
+.work-calc:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.section-three .container {
+  padding-bottom: 94px;
 }
 .work-list {
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
 }
 
 /* our team */
@@ -318,7 +337,14 @@ body {
   line-height: 1.18;
   text-align: center;
 }
-
+.team-calc {
+  width: calc((100% - 90px) / 4);
+  margin-right: 30px;
+  outline: 1px solid tomato;
+}
+.team-calc:nth-child(4n) {
+  margin-right: 0px;
+}
 .work-people {
   color: var(--connection);
 
@@ -342,17 +368,17 @@ body {
 }
 
 /* Company  */
-.section-four .container {
-  padding-top: 94px;
-}
-
 .company {
   display: flex;
   justify-content: center;
   padding-bottom: 94px;
 }
-.company .item-company:not(:last-child) {
+.item-company {
+  width: calc((100% - 150px) / 6);
   margin-right: 30px;
+}
+.item-company:nth-child(6n) {
+  margin-right: 0px;
 }
 .social-network .item:not(:last-child) {
   margin-right: 10px;
@@ -422,7 +448,7 @@ body {
   line-height: 1.71;
 }
 
-.footer-year {
+.copyright {
   color: var(--footer-year);
   margin-top: 0px;
   margin-bottom: 0px;
@@ -457,18 +483,22 @@ body {
 }
 
 .footer-m {
-  width: 207px;
+  width: 206px;
   height: 81px;
 
   margin-top: 56px;
   margin-right: 93px;
 }
-.hr {
+.bg-footer .container {
+  padding-bottom: 28px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+/* .hr {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
   border: 1px solid rgba(255, 255, 255, 0.1);
-}
+} */
 
 .flex-footer {
   display: flex;
@@ -476,6 +506,10 @@ body {
 
 .general-flex .item:not(:last-child) {
   margin-right: 10px;
+}
+
+.flex-sub {
+  display: flex;
 }
 /* portfolio */
 
@@ -489,7 +523,7 @@ body {
   margin-bottom: 94px;
   margin-left: auto;
   margin-right: auto;
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -521,6 +555,8 @@ body {
 .portfolio-h {
   color: var(--primary-text-color);
 
+  width: 322px;
+
   margin-top: 20px;
   margin-bottom: 0px;
 
@@ -532,6 +568,8 @@ body {
 .portfolio-pone {
   color: var(--connection);
 
+  width: 322px;
+
   margin-top: 4px;
   margin-bottom: 20px;
 
@@ -541,6 +579,8 @@ body {
 }
 .portfolio-text {
   color: var(--primery-text-white);
+
+  width: 322px;
 
   margin-top: 0px;
   margin-bottom: 0px;
@@ -562,9 +602,10 @@ body {
 }
 
 .flex-li {
-  width: 380px;
+  width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
+  outline: 1px solid tomato;
 }
 .flex-li:nth-child(3n) {
   margin-right: 0px;
@@ -572,3 +613,8 @@ body {
 .flex-li:nth-last-child(-n + 3) {
   margin-bottom: 0px;
 }
+
+/* 
+.flex-li:nth-last-child(-n + 3) {
+  margin-bottom: 0px;
+} */
