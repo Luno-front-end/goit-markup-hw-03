@@ -605,7 +605,6 @@ img {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
-  outline: 1px solid tomato;
 }
 .flex-li:nth-child(3n) {
   margin-right: 0px;
