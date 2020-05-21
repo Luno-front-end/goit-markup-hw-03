@@ -202,7 +202,6 @@ img {
   margin-right: auto;
 
   width: 646px;
-  height: 104px;
 
   font-weight: 900;
   font-size: 44px;
@@ -538,11 +537,16 @@ img {
   margin-bottom: 50px;
   justify-content: center;
 }
+.button-text {
+}
 .button-box {
   color: var(--primary-text-color);
   background-color: var(--bg-none-light);
 
-  padding: 6px 22px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
   /* min-width: 73px; */
   /* min-height: 38px; */
   border-radius: 4px;
@@ -566,7 +570,7 @@ img {
 
   width: 322px;
 
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 0px;
 
   font-weight: 700;
@@ -578,9 +582,10 @@ img {
   color: var(--connection);
 
   width: 322px;
-
+  margin-left: 0px;
+  margin-right: 0px;
   margin-top: 4px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 
   font-weight: 400;
   font-size: 16px;
@@ -606,6 +611,12 @@ img {
 .p-list {
   display: flex;
   flex-wrap: wrap;
+}
+.porfolio-card {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .flex-li {
