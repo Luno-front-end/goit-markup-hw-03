@@ -549,6 +549,7 @@ img {
   padding-right: 22px;
   /* min-width: 73px; */
   /* min-height: 38px; */
+  border: none;
   border-radius: 4px;
 
   font-family: Roboto;
