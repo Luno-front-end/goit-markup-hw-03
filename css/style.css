@@ -241,16 +241,13 @@ img {
 }
 
 /* O nas */
-.section-one .container {
-}
+
 .section-one .container {
   padding-top: 94px;
   padding-bottom: 94px;
   border-bottom: 1px solid #ececec;
 }
-.icon-img {
-  /* margin-top: 25px; */
-}
+
 .bg-img {
   background-color: var(--bg-none-light);
 
@@ -264,8 +261,6 @@ img {
 
 .bg-img:hover {
   background-color: var(--acent-text-color);
-}
-.section-oneli {
 }
 
 .about-us {
@@ -331,9 +326,6 @@ img {
 .section-three .container {
   padding-bottom: 94px;
   padding-top: 94px;
-}
-.work-list {
-  /* margin-bottom: 94px; */
 }
 
 /* our team */
@@ -541,8 +533,7 @@ img {
   margin-bottom: 50px;
   justify-content: center;
 }
-.button-text {
-}
+
 .button-box {
   color: var(--primary-text-color);
   background-color: var(--bg-none-light);
