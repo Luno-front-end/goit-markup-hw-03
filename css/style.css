@@ -307,7 +307,13 @@ img {
 /* .work-box {
 } */
 .work-card {
+  background: var(--primery-text-white);
+  height: 422px;
+
   padding-bottom: 24px;
+
+  border-radius: 4px;
+
   /* width: 278px;
   height: 422px; */
 }
@@ -319,6 +325,9 @@ img {
   margin-right: 0px;
 }
 
+.section-three {
+  background-color: var(--bg-none-light);
+}
 .section-three .container {
   padding-bottom: 94px;
   padding-top: 94px;
@@ -518,8 +527,6 @@ img {
 
 /* main */
 /* кнопки */
-/* .button-text {
-} */
 
 .container-portfolio {
   margin-top: 93px;
@@ -540,10 +547,7 @@ img {
   color: var(--primary-text-color);
   background-color: var(--bg-none-light);
 
-  padding-top: 6px;
-  padding-bottom: 6px;
-  padding-left: 22px;
-  padding-right: 22px;
+  padding: 6px 22px;
   /* min-width: 73px; */
   /* min-height: 38px; */
   border: none;
@@ -610,11 +614,26 @@ img {
   display: flex;
   flex-wrap: wrap;
 }
-.porfolio-card {
+.portfolio-card {
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 20px;
   padding-bottom: 20px;
+
+  /* Установит стили правой рамки */
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #eeeeee;
+
+  /* Установит стили нинжней рамки */
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #eeeeee;
+
+  /* Установит стили левой рамки */
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #eeeeee;
 }
 
 .flex-li {
@@ -628,8 +647,3 @@ img {
 .flex-li:nth-last-child(-n + 3) {
   margin-bottom: 0px;
 }
-
-/* 
-.flex-li:nth-last-child(-n + 3) {
-  margin-bottom: 0px;
-} */
